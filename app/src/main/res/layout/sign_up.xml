@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+<!--    <TextView-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text=" Sign in us"-->
+<!--        android:textSize="20sp" />-->
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:spinnerMode="dropdown"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="30dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="@string/user_name"
+        android:background="@drawable/edit_text_top"
+        android:padding="15dp"
+
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/example_gmail_com"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edit_text_top"
+        android:padding="15dp"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="30dp"
+        android:inputType="textPassword"
+        android:hint="password"
+        android:background="@drawable/edit_text_bottom"
+        android:padding="15dp"
+        />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="@string/sign_up_1"
+        android:layout_marginTop="30dp"
+        android:textColor="#FDFCFC"
+
+        />
+
+</LinearLayout>

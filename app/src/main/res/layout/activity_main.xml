@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#062136">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:gravity="right"
+            android:text="@string/vfv"
+            android:textColor="#DD9E23"
+            android:textSize="50sp" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="440dp"
+            android:layout_height="239dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ima" />
+
+        <ImageView
+            android:id="@+id/pic"
+            android:layout_width="match_parent"
+            android:layout_height="249dp"
+            android:src="@drawable/inst2" />
+
+        <Button
+            android:id="@+id/signIn"
+            android:layout_width="200dp"
+            android:layout_height="54dp"
+            android:layout_gravity="center"
+            android:text="@string/sign_in"
+            android:textColor="#FDFCFC"
+            android:background="#9AADB1"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/signUp"
+            android:layout_width="200dp"
+            android:layout_height="54dp"
+            android:layout_gravity="center"
+            android:textColor="#FDFCFC"
+            android:background="#DD9E23"
+            android:layout_margin="15dp"
+            android:text="@string/sign_up" />
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

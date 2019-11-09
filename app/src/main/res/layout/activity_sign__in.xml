@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".ui.login.Sign_In">
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/lologo"-->
+<!--        android:background="@drawable/image_background"/>-->
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/user_name"
+        android:layout_marginTop="30dp"
+        android:inputType="textPersonName"
+        android:background="@drawable/edit_text_top"
+        android:padding="15dp"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/password"
+        android:layout_marginTop="30dp"
+        android:inputType="textPassword"
+        android:background="@drawable/edit_text_bottom"
+        android:padding="15dp"
+        />
+    <Button
+        android:id="@+id/usignin"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="@drawable/button"
+        android:text="@string/sign_in_1"
+        android:textSize="17dp"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="false"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:textColor="#FDFCFC"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_up"
+        android:text="Register"
+        android:textSize="22dp"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/test_text"
+        android:text=""
+        android:layout_marginTop="50dp"
+        android:visibility="visible"
+        android:textSize="20dp"
+        />
+
+
+</LinearLayout>

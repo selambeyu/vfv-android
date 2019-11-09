@@ -1,0 +1,52 @@
+<resources>
+
+    <string name="app_name">Biography</string>
+    <string name="vfv">VFV</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="name">Name</string>
+    <string name="sign_up_2">Sign Up2</string>
+    <string name="sign_up_3">Sign up</string>
+    <string name="Sign_Up">Button</string>
+    <string name="user_name">User Name</string>
+    <string name="exampple_gmail_com">exampple@gmail.com</string>
+    <string name="password">Password</string>
+    <string name="example_gmail_com">example@gmail.com</string>
+    <string name="sign_up_1">Sign Up</string>
+    <string name="sign_in_1">Sign In</string>
+    <string name="title_activity_biography">Biography</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="write_article">Write Article</string>
+    <string name="questions">Questions</string>
+    <string name="biography_tab">Biography</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_department">Department</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="students">Students</string>
+    <string name="training_centers">Training Centers</string>
+    <string name="vision">Vision</string>
+    <string name="career_path">Career Path</string>
+    <string name="education">Education</string>
+    <string name="proffessional">Proffessional</string>
+    <string name="articles">Articles</string>
+    <string name="title_activity_training">TrainingActivity</string>
+    <string name="title_activity_vision">VisionActivity</string>
+    <string name="my_articles">My Articles</string>
+    <string name="biography">Biography</string>
+    <string name="view_questions">View Questions</string>
+    <string name="professionals">Professionals</string>
+    <string name="ask_your_questions_here">Ask your questions here</string>
+    <string name="ask">Ask</string>
+    <string-array name="users_array">
+        <item>Student</item>
+        <item>Training Center</item>
+        <item>Professional</item>
+
+    </string-array>
+</resources>
